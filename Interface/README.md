@@ -9,4 +9,7 @@ Java elevates the notion of interface to be a separate construct, expressly sepa
 Java interfaces allow several classes to provide the same functionality, and they open the possibility that a class can implement more than one interface.
 
 ### Example
+Your design intent will sometimes go beyond the simple definition of an interface.
 For example, you might use an interface to adapt a class's interface to meet a client's needs, applying the ADAPTER pattern. You might also create an interface to a collection of classes, applying the FACADE pattern.
+</br>
+You might also create an interface to a collection of classes, applying the FACADE pattern. In this case, you create a new interface by creating a new class rather than a new interface.
