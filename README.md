@@ -23,7 +23,13 @@ In the design of a system, a number of classes are identified and grouped togeth
 * The middle compartment lists the class's variables. 
 * The bottom compartment lists the class's methods.
 
-**The variable in the middle compartment is indicated as-->   visibilityIndicator name : type**
+**The variables in the middle compartment are indicated as:**   
+</br>**visibilityIndicator name : type**
+**An initial value can be indicated for a variable by following the variable's type with an equal(=)sign:**
+</br>**Shutdown : boolean = false **
+
+</br>**The methods in the bottom compartment are indicated as: **
+</br>**VisibilityIndicator name | formalParameters | :return type**
 
 #### Visibility indicators
 </br>The symbols that precede each variable and method are visibility indicators.
@@ -36,6 +42,9 @@ In the design of a system, a number of classes are identified and grouped togeth
 * Random(*)
 #### Scope
 The UML specifies two types of scope for members: **instance and classifier**, and the latter is represented by underlined names.
+**If a variable is underlined that means that it is a static variable.**
+</br>**This applies to methods, too. Underlined methods are static methods.**
+
 
 
 
