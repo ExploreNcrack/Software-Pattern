@@ -14,10 +14,11 @@ The Unified Modeling Language(UML) is a notation that you can use for object-ori
 </br>
 ### Class Diagram
 A class diagram is a diagram that shows classes, interfaces, and their relationships.
+In the design of a system, a number of classes are identified and grouped together in a class diagram that helps to determine the static relations between them. With detailed modelling, the classes of the conceptual design are often split into a number of subclasses.
 </br>The most basic element of a class diagram is a class
 </br>Classes are drawn as rectangles. The rectangles can be divide into two or three compartments. The top compartment contains the name of the class. The middle compartment lists the class's variables. The bottom compartment lists the class's methods.
 </br>The symbols that precede each variable and method are visibility indicators.
-</br>There are three different types of visibility indicators.
+</br>There are three different types of **visibility indicators**.
 * private(-)
 * public(+)
 * protected(#)
